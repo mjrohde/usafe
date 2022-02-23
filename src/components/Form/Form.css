@@ -1,0 +1,100 @@
+.formContainer {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #040404;
+  color: white;
+}
+.formControl {
+  width: 60%;
+}
+.formName {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+
+.formName > div {
+  width: 50%;
+}
+
+.formName > div > input {
+  width: 100%;
+}
+
+label {
+  margin-top: 20px;
+}
+
+label > span {
+  margin-left: 10%;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.input:focus {
+  outline: none;
+}
+
+select {
+  width: 30px;
+  margin: 20px 0;
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.btn-form {
+  background: transparent;
+  border: 3px solid white;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.btn-form:hover {
+  background: white;
+  color: #040404;
+}
+.btn-form:focus {
+  outline: none;
+  background: white;
+  color: #040404;
+}
+
+@media all and (min-width: 700px) and (max-width: 1100px) {
+  label > span {
+    margin-left: 5px;
+  }
+}
+
+@media all and (max-width: 699px) {
+  .formContainer {
+    align-items: start;
+    height: 100%;
+  }
+
+  .formControl {
+    width: 90%;
+  }
+
+  label > span {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+.offersContainer {
+  background-color: #040404;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offers.text {
+  flex: 0.3;
+  margin-left: 150px;
+  text-align: start;
+}
+
+.text > h1 {
+  font-size: 30px;
+}
+
+.text > h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.text > img {
+  min-width: 100%;
+  margin-top: 50px;
+}
+
+.offers.form {
+  flex: 0.7;
+}
+
+@media all and (max-width: 699px) {
+  .offersContainer {
+    display: block;
+    padding: 100px 20px;
+    height: fit-content;
+  }
+
+  .offers.text {
+    margin-top: 150px;
+    max-width: 80%;
+  }
+}

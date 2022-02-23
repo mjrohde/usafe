@@ -1,0 +1,135 @@
+.usageContainer {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #040404;
+}
+
+.usageVideo {
+  width: 100vw;
+  height: fit-content;
+}
+
+.usageVideo > video {
+  width: 100%;
+}
+
+.usageSpecs {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.usageSpecsParts {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  color: white;
+  text-align: start;
+}
+
+.usageSpecsText {
+  flex: 0.5;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.usageSpecsText > h2,
+.usageSpecsText > p {
+  margin: 0 20px;
+}
+
+.usageSpecsImage {
+  flex: 0.5;
+}
+
+.usageSpecsImage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.awardsContainer {
+  color: white;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.awards {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awards > span {
+  flex: 0.5;
+}
+
+.awards > span > p {
+  text-align: start;
+  width: 50%;
+  margin: auto;
+}
+
+.awards > span > img {
+  width: 50%;
+  text-align: center;
+}
+
+@media all and (min-width: 700px) and (max-width: 1025px) {
+  .usageSpecsParts {
+    min-height: 0;
+    height: 30vh;
+  }
+}
+
+@media all and (max-width: 699px) {
+  .awards {
+    flex-direction: column;
+  }
+
+  .usageVideo > video {
+    margin-top: 100px;
+    object-fit: cover;
+  }
+
+  .dame {
+    margin-top: 30px;
+  }
+
+  .awards > span > p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .usageSpecsParts {
+    flex-direction: column;
+  }
+  .usageSpecsText {
+    flex: 1;
+    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .usageSpecsText > p {
+    margin-top: 20px;
+  }
+
+  .usageSpecsImage {
+    flex: 1;
+  }
+
+  .usageSpecsImage.even {
+    order: 1;
+  }
+
+  .usageSpecsText.even {
+    order: 2;
+  }
+}

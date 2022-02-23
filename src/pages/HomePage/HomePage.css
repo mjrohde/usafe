@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Ubuntu&display=swap");
+* {
+  font-family: "Karla", sans-serif;
+}
+
+.homeUsafe {
+  background-image: url("./Images/U-safe-livbøye-color.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: -1;
+}
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+
+.statsContainer.animate {
+  animation: fadeInHeaderText 2s forwards;
+}
+
+.stats {
+  flex: 0.3;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 0 0 3px black;
+  text-align: center;
+}
+.stats > h2 {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats > h3 {
+  font-size: 30px;
+}
+
+.specsContainer {
+  background: #040404;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.specsInfo {
+  width: 70%;
+  min-height: 60vh;
+  margin: auto;
+  font-size: 2.5rem;
+  display: table;
+}
+
+.specsInfo > p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inlineInfoSpecs {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
+
+.inlineInfoSpecs:nth-child(even) {
+  border-bottom: 2px solid #777;
+  border-top: 2px solid #777;
+}
+
+.inlineInfoSpecs > span {
+  flex: 0.5;
+  max-width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inlineInfoSpecs > span > img {
+  width: 100%;
+}
+
+.inlineInfoSpecsText {
+  max-width: 70%;
+  line-height: 2.5;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roughWatersVideo {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.roughwaters {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.roughWatersText {
+  line-height: 4;
+}
+.roughWatersText > h1 {
+  line-height: 1;
+}
+
+.greyText {
+  color: #777;
+}
+
+.lifeSaving {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  line-height: 2;
+}
+
+.lifeSavingText > h2 > a {
+  color: white;
+}
+.lifeSavingText > h2 > a:hover {
+  color: #777;
+}
+
+.lifeSavingText > h1 {
+  font-size: 40px;
+}
+
+.lifeSavingImage {
+  width: 100%;
+  margin-top: 50px;
+}
+.lifeSavingImage > a > img {
+  width: 100%;
+}
+
+.carouselContainer {
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.carouselText {
+  margin: 50px 0;
+}
+.captionPara {
+  text-align: start;
+}
+
+.captionInfo > h1 {
+  text-align: start;
+  margin-left: 10px;
+}
+.caption {
+  position: relative;
+  max-width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: white;
+}
+.caption > .captionNumber {
+  font-size: 70px;
+  flex: 0.3;
+  max-width: 100px;
+  display: flex;
+  justify-content: start;
+}
+
+.caption > .captionInfo {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  bottom: 60%;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  bottom: 60%;
+}
+
+.carouselItem > img {
+  width: 60%;
+}
+
+@media all and (min-width: 700px) and (max-width: 1025px) {
+  .homeUsafe {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .statsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+  }
+
+  .captionPara {
+    width: 80%;
+  }
+
+  .stats {
+    margin-bottom: 0;
+    margin-left: 30px;
+    flex: 0.2;
+    line-height: 2;
+  }
+
+  .inlineInfoSpecsText > h1 {
+    font-size: 20px;
+  }
+
+  .inlineInfoSpecsText > p {
+    font-size: 14px;
+  }
+  .carousel-control-prev-icon {
+    top: 30%;
+  }
+
+  .carousel-control-next-icon {
+    top: 30%;
+  }
+}
+
+@media all and (max-width: 699px) {
+  .homeUsafe {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .statsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+  }
+
+  .stats {
+    margin-bottom: 0;
+    margin-left: 30px;
+    text-align: start;
+    flex: 0.2;
+    line-height: 2;
+  }
+
+  .inlineInfoSpecs {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 20px;
+  }
+  .inlineInfoSpecs > span {
+    flex: 1;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+  }
+  .inlineInfoSpecs > span > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inlineInfoSpecsText {
+    min-width: 90vw;
+    max-height: fit-content;
+    display: block;
+    text-align: start;
+  }
+
+  .inlineInfoSpecsText > h1 {
+    line-height: 1.5;
+    font-size: 30px;
+  }
+
+  .specsInfo {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .lifeSavingText > h2 {
+    font-size: 20px;
+  }
+
+  .lifeSavingText > h1 {
+    font-size: 30px;
+  }
+
+  .stats > h2 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stats > h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-control-prev-icon {
+    top: 15%;
+  }
+
+  .carousel-control-next-icon {
+    top: 15%;
+  }
+}
+
+@keyframes fadeInHeaderText {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transfrom: translate(0, 0);
+  }
+}

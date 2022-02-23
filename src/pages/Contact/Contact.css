@@ -1,0 +1,48 @@
+.contactContainer {
+  background-color: #040404;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact.text {
+  flex: 0.3;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+}
+.contact.text > a {
+  color: white;
+  text-decoration: none;
+}
+.contact.text > a:hover {
+  border-bottom: 1px solid white;
+}
+
+.contact.form {
+  flex: 0.7;
+}
+
+@media all and (max-width: 699px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    height: fit-content;
+  }
+
+  .contact.text {
+    margin-top: 150px;
+    max-width: 100%;
+    order: 1;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .contact.form {
+    order: 2;
+  }
+}
