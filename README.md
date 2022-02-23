@@ -19,4 +19,15 @@ The forms in the original website is not bad at all, they are standard input fie
 The images in the original website are all formated well and none are stretched, but they could be better (this is my subjective opinion), for some of the images in the main page, I have removed the background of the images, this is purely because in a section of three parts, the original website has 1 image without a background and 2 of them with a background. I believe having all three images the same (without a background) looks a tiny bit cleaner. 
 
 
+## Link
+
+https://usafe2.netlify.app/#/
+
+This is not for commercial use, and all rights are reserved to usafe.no
+
+### Link to usafe original
+
+https://www.usafe.no/
+
+
  
