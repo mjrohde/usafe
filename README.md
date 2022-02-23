@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# U SAFE website 2.0
+Because of some errors, or what I believe to be not so user-friendly in the U SAFE website, I have created this website as an improvement to the original. This
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Main differences
+### Videos
+The original website contains som videos that are not allowed to be controlled by the user. I have allowed this in my version of the website. Along with the controls, the videos are in a little weird format, I have changed this by substracting from the width at which the videos are displayed. This
 
-## Available Scripts
+### footer
+The footer in the original is not bad, but in my opinion it is confusing. In this version of the website, the footer contains three sectuions of information, links to navgate the website, contact information, and an about us display with a Linked-In icon.
 
-In the project directory, you can run:
+### Re-arranging information
+Some of the information displayed in the website is not easily accessible. To get the most important information about the bouy, you have to navigate away from the main page, which i find confusing. Instead the information of top speed, range and battery life is placed in the header of the main page, making it the first information every user sees when entering the website. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Forms
+The forms in the original website is not bad at all, they are standard input fields, that look more than good enough. However, a little styling can never go wrong (this is not at all true...but hey, why not give it a shot, huh?), I have also added on change validation of the forms, meaning that every user will get information when what they have entered is valid or not. There is also an extra security with an alert system in case the input fields are empty. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Images
+The images in the original website are all formated well and none are stretched, but they could be better (this is my subjective opinion), for some of the images in the main page, I have removed the background of the images, this is purely because in a section of three parts, the original website has 1 image without a background and 2 of them with a background. I believe having all three images the same (without a background) looks a tiny bit cleaner. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
